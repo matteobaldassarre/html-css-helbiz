@@ -92,8 +92,9 @@ header img[alt=logo-black] {
 }
 /* END HEADER */
 
-/* MAIN */
 
+
+/* MAIN */
 /* Products section */
 .products {
     margin-top: 15px;
@@ -131,6 +132,7 @@ header img[alt=logo-black] {
     height: 500px;
     background-position: -200px -15px;
     background-size: 2000px;
+    background-repeat: no-repeat;
 }
 
 .phone img {
@@ -142,18 +144,22 @@ header img[alt=logo-black] {
 }
 
 /* Info Section */
-.info .inner-col {
+.info .container .inner-col {
     padding: 100px 0 50px 170px;
 }
 
-.info span {
+.info .container span {
     font-size: 30px;
 }
 
-.info .step-1 span {
+.info .container .step-1 span {
     font-size: 14px;
     padding-top: 10px;
     display: inline-block;
+}
+
+.info .container .step-1 {
+    padding-left: 50px;
 }
 
 @media all and (max-width: 991px) {
@@ -162,12 +168,166 @@ header img[alt=logo-black] {
         margin-bottom: 300px;
     }
 
-    .info .inner-col {
+    .info .container .inner-col {
         text-align: center;
         padding: 0;
     }
 
-    .info .step-1 {
+    .info .container .step-1 {
         margin-top: 40px;
+        padding: 0;
     }
 }
+
+/* Medium Wrapper */
+.medium-wrapper {
+    max-width: 1300px;
+    margin: 50px auto;
+}
+
+.medium-wrapper a {
+    color: white;
+}
+
+/* Mobility */
+.mobility {
+    height: 500px;
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.mobility h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+.mobility p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.mobility .centered {
+    padding: 0 130px;
+    transform: translate(0%, -50%);
+}
+
+@media all and (max-width: 991px) {
+    .mobility .centered {
+        padding: 0;
+        transform: translate(-50%, -40%);
+        text-shadow: 5px 4px 5px black;
+    }
+}
+
+/* Get the App */
+.get-the-app .inner-col {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.get-the-app .col-lg-6 .content-col {
+    height: 400px;
+    background-image: linear-gradient(to top, rgb(64, 78, 95) , rgba(83, 104, 128, 0.829));
+    text-align: center;
+    overflow: hidden;
+}
+
+.find-us,
+.find-us a,
+.get-the-app,
+.get-the-app a {
+    color: white;
+    font-size: 22px;
+}
+
+.find-us h2,
+.get-the-app h2 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.find-us span,
+.get-the-app span {
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+@media all and (max-width: 991px) {
+    .get-the-app .inner-col {
+        padding: 30px 0 0 0;
+    }
+}
+
+/* Find Us */
+.find-us .inner-col {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.find-us .col-lg-6 .content-col {
+    height: 400px;
+    background-image: url(../img/cities-1500.jpg);
+    background-position: top;
+    background-size: 700px;
+}
+
+.find-us .content-col {
+    text-align: center;
+}
+
+@media all and (max-width: 991px) {
+    .find-us .inner-col {
+        padding: 30px 0 0 0;
+    }
+
+    .find-us .col-lg-6 .content-col {
+        height: 400px;
+        background-image: url(../img/cities-1500.jpg);
+        background-position: top;
+        background-size: cover;
+    }
+}
+
+/* Social Banner */
+.social-banner {
+    background-image: url(../img/Social-Banner.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-top: 460px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.helbiz-family {
+    background-color: white;
+    text-align: center;
+    padding: 50px 120px;
+}
+
+.helbiz-family h3 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.helbiz-family .social-icons {
+    font-size: 30px;
+    word-spacing: 20px;
+}
+
+@media all and (max-width: 991px) {
+    .social-banner {
+        display: none;
+    }
+}
+/* END MAIN */
+
+
+/* FOOTER */
+
+/* END FOOTER */
