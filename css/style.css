@@ -1,0 +1,89 @@
+/* COMMON */
+* {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.small-wrapper {
+    max-width: 1050px;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* HEADER */
+.top-nav {
+    padding: 20px 0;
+}
+
+header nav {
+    text-align: right;
+}
+
+header .fa-bars {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+header .menu {
+    font-size: 12px;
+}
+
+header .menu li {
+    padding: 0 8px;
+    line-height: 30px;
+}
+
+header img[alt=logo-black] {
+    padding: 7px 0px 7px 7px;
+    width: 90px;
+}
+
+/* Language nav */
+.language-menu li {
+    border-right: 1px solid black;
+}
+
+.language-menu li:last-child {
+    border: none;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/hero-bg.jpg);
+    height: 520px;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+
+.teaser {
+    color: white;
+}
+
+.teaser p {
+    margin: 25px 0;
+}
+
+.teaser img {
+    width: 160px;
+}

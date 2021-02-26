@@ -15,7 +15,6 @@
 
 .debug .container > [class*="col-"] .container {
     height: 100%;
-    padding: 5px;
     background-color: pink;
 }
 
