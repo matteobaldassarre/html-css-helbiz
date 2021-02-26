@@ -380,13 +380,17 @@ footer .col-lg-12 {
 
 @media all and (max-width: 991px) {
     img[alt="helbiz-logo-white"] {
-        padding-left: 10px;
         padding-bottom: 20px;
+    }
+
+    footer img {
+        text-align: center;
     }
 
     footer {
         margin-top: 900px;
         padding-top: 20px;
+        text-align: center;
     }
 
     .social-icons {
@@ -395,7 +399,8 @@ footer .col-lg-12 {
     }
 
     footer .col-lg-12 {
-        padding: 0;
+        padding: 20px 0;
+        width: 100%;
     }
 }
 /* END FOOTER */
