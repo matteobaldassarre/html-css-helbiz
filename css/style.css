@@ -93,11 +93,13 @@ header img[alt=logo-black] {
 /* END HEADER */
 
 /* MAIN */
+
+/* Products section */
 .products {
     margin-top: 15px;
 }
 
-.inner-col {
+.products .inner-col {
     padding: 20px;
 }
 
@@ -121,4 +123,51 @@ header img[alt=logo-black] {
 .products a {
     color: blue;
     font-size: 18px;
+}
+
+/* Phone Section */
+.phone {
+    background-image: url(../img/HelbizBanner.jpg);
+    height: 500px;
+    background-position: -200px -15px;
+    background-size: 2000px;
+}
+
+.phone img {
+    height: 600px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
+/* Info Section */
+.info .inner-col {
+    padding: 100px 0 50px 170px;
+}
+
+.info span {
+    font-size: 30px;
+}
+
+.info .step-1 span {
+    font-size: 14px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+@media all and (max-width: 991px) {
+
+    .phone {
+        margin-bottom: 300px;
+    }
+
+    .info .inner-col {
+        text-align: center;
+        padding: 0;
+    }
+
+    .info .step-1 {
+        margin-top: 40px;
+    }
 }
