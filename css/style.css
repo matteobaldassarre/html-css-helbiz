@@ -29,6 +29,9 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+img {
+    max-width: 100%;
+}
 
 /* HEADER */
 .top-nav {
@@ -86,4 +89,36 @@ header img[alt=logo-black] {
 
 .teaser img {
     width: 160px;
+}
+/* END HEADER */
+
+/* MAIN */
+.products {
+    margin-top: 15px;
+}
+
+.inner-col {
+    padding: 20px;
+}
+
+.products .content-col {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.products .content-col span {
+    display: block;
+    font-size: 23px;
+    margin: 20px 0;
+}
+
+.products h2 {
+    font-size: 30px;
+    font-weight: 150;
+    padding-top: 60px;
+}
+
+.products a {
+    color: blue;
+    font-size: 18px;
 }
