@@ -33,6 +33,24 @@ img {
     max-width: 100%;
 }
 
+.window-popping {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.window-popping:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.apps-popping {
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.apps-popping:hover {
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+
 /* HEADER */
 .top-nav {
     padding: 20px 0;
@@ -369,6 +387,11 @@ footer span {
 footer .col-lg-12 {
     padding: 30px;
     text-align: center;
+}
+
+footer .app-stores img {
+    border-radius: 5px;
+    vertical-align: middle;
 }
 
 .legal-pages {
